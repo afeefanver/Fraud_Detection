@@ -96,6 +96,7 @@ The primary ML model used:
 
 ### Metrics (Example)
 | Metric | Score | 
+|------|--------------|
 | Accuracy | ~0.99| 
 | Precision	| High | 
 | Recall	| Strong | 
@@ -128,12 +129,12 @@ The Streamlit UI offers two main modes:
 
 ## 🚀 6. How to Run the Project
 1. Clone the Repository
-'''
+''' bash
 git clone https://github.com/afeefanver/Fraud_Detection.git
 cd Fraud_Detection
 
 3. Install Dependencies
-'''
+'''bash
 pip install -r requirements.txt
 
 4. Train Model (Optional)
