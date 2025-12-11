@@ -95,12 +95,12 @@ The primary ML model used:
 - n_jobs = -1
 
 ### Metrics (Example)
-Metric	Score
-Accuracy	~0.99
-Precision	High
-Recall	Strong
-F1 Score	Balanced performance
-ROC-AUC	Excellent
+| Metric | Score | 
+| Accuracy | ~0.99| 
+| Precision	| High | 
+| Recall	| Strong | 
+| F1 Score| |	Balanced performance |
+| ROC-AUC |	Excellent |
 
 All results are saved in model_metadata.joblib.
 
@@ -128,16 +128,20 @@ The Streamlit UI offers two main modes:
 
 ## 🚀 6. How to Run the Project
 1. Clone the Repository
+'''
 git clone https://github.com/afeefanver/Fraud_Detection.git
 cd Fraud_Detection
 
-2. Install Dependencies
+3. Install Dependencies
+'''
 pip install -r requirements.txt
 
-3. Train Model (Optional)
+4. Train Model (Optional)
+'''
 python fraud_main.py
 
-4. Run Streamlit App
+5. Run Streamlit App
+'''
 streamlit run fraud_app.py
 
 ## 📸 7. Screenshots (Add later)
@@ -151,9 +155,9 @@ You can add screenshots like:
 ## 📈 8. Results & Insights
 
 - Fraud transactions often involve:
- - Zero origin balance
- - Significant balance errors
- - Merchant accounts
+  - Zero origin balance
+  - Significant balance errors
+  - Merchant accounts
 - Random Forest performed best vs Logistic Regression, SVM, etc.
 - Custom-engineered features improved fraud detection accuracy significantly.
 
