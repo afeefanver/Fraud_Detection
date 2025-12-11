@@ -126,7 +126,7 @@ The Streamlit UI offers two main modes:
   - Fraud by transaction type
 - Downloadable results CSV
 
-🚀 6. How to Run the Project
+## 🚀 6. How to Run the Project
 1. Clone the Repository
 git clone https://github.com/afeefanver/Fraud_Detection.git
 cd Fraud_Detection
@@ -140,7 +140,7 @@ python fraud_main.py
 4. Run Streamlit App
 streamlit run fraud_app.py
 
-📸 7. Screenshots (Add later)
+## 📸 7. Screenshots (Add later)
 
 You can add screenshots like:
 
@@ -148,7 +148,7 @@ You can add screenshots like:
 ![Fraud Gauge](images/fraud_gauge.png)
 ![Batch Processing](images/batch_results.png)
 
-📈 8. Results & Insights
+## 📈 8. Results & Insights
 
 Fraud transactions often involve:
 
@@ -164,7 +164,7 @@ Custom-engineered features improved fraud detection accuracy significantly.
 
 The system is suitable for production-level deployment with minimal changes.
 
-🔮 9. Future Improvements
+## 🔮 9. Future Improvements
 
 Add SHAP explainability
 
@@ -176,7 +176,7 @@ Add alerting system for high-risk transactions
 
 Add user authentication & admin dashboard
 
-🏆 10. Author
+## 🏆 10. Author
 
 Afeef Anver
 AI/ML Developer | Python | Data Science
