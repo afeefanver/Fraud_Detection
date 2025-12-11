@@ -120,10 +120,10 @@ The Streamlit UI offers two main modes:
 - Auto feature engineering
 - Fraud prediction for each entry
 - Overall statistics:
-  -- Fraud percentage
-  -- Legitimate vs Fraud counts
-  -- Risk distribution
-  -- Fraud by transaction type
+  - Fraud percentage
+  - Legitimate vs Fraud counts
+  - Risk distribution
+  - Fraud by transaction type
 - Downloadable results CSV
 
 🚀 6. How to Run the Project
