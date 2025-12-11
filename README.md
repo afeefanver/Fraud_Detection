@@ -16,8 +16,10 @@ This model predicts whether a financial transaction is fraudulent or legitimate 
 - Clean & Responsive UI built with Streamlit
 - Model Performance Summary included
 
+---
 ## 📂 Project Structure
 
+```bash
 Fraud_Detection/
 │── fraud_main.py                # Training script
 │── fraud_app.py                 # Streamlit application
@@ -27,7 +29,8 @@ Fraud_Detection/
 │── model_metadata.joblib        # Stores performance metrics
 │── label_encoder.joblib         # Encoder for transaction types
 │── README.md                    # Project documentation
-
+```
+---
 
 ## 📘 1. Project Overview
 
@@ -129,22 +132,22 @@ The Streamlit UI offers two main modes:
 
 ## 🚀 6. How to Run the Project
 1. Clone the Repository
-''' bash
+``` bash
 git clone https://github.com/afeefanver/Fraud_Detection.git
 cd Fraud_Detection
-
+```
 3. Install Dependencies
-'''bash
+```bash
 pip install -r requirements.txt
-
+```
 4. Train Model (Optional)
-'''
+```bash
 python fraud_main.py
-
+```
 5. Run Streamlit App
-'''
+```bash
 streamlit run fraud_app.py
-
+```
 ## 📸 7. Screenshots (Add later)
 
 You can add screenshots like:
