@@ -114,3 +114,119 @@ Dataset size: large-scale financial transactions dataset.
 - type_TRANSFER
 
 These features significantly improved model performance.
+
+
+## 🤖 4. Model Training (fraud_main.py)
+
+The primary ML model used:
+
+### Random Forest Classifier
+
+- n_estimators = 100
+
+- max_depth = 15
+
+- class_weight = 'balanced'
+
+- n_jobs = -1
+
+### Metrics (Example)
+Metric	Score
+Accuracy	~0.99
+Precision	High
+Recall	Strong
+F1 Score	Balanced performance
+ROC-AUC	Excellent
+
+All results are saved in model_metadata.joblib.
+
+## 🖥️ 5. Streamlit Web App (fraud_app.py)
+
+The Streamlit UI offers two main modes:
+
+### 🔍 Single Transaction Prediction
+
+- Input transaction details manually
+
+- Real-time fraud prediction
+
+- Fraud probability gauge
+
+- Risk level classification
+
+- Summary and recommended actions
+
+### 📁 Batch Processing (CSV Upload)
+
+Upload thousands of transactions
+
+Auto feature engineering
+
+Fraud prediction for each entry
+
+Overall statistics:
+
+Fraud percentage
+
+Legitimate vs Fraud counts
+
+Risk distribution
+
+Fraud by transaction type
+
+Downloadable results CSV
+
+🚀 6. How to Run the Project
+1. Clone the Repository
+git clone https://github.com/afeefanver/Fraud_Detection.git
+cd Fraud_Detection
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Train Model (Optional)
+python fraud_main.py
+
+4. Run Streamlit App
+streamlit run fraud_app.py
+
+📸 7. Screenshots (Add later)
+
+You can add screenshots like:
+
+![App Screenshot](images/app_home.png)
+![Fraud Gauge](images/fraud_gauge.png)
+![Batch Processing](images/batch_results.png)
+
+📈 8. Results & Insights
+
+Fraud transactions often involve:
+
+Zero origin balance
+
+Significant balance errors
+
+Merchant accounts
+
+Random Forest performed best vs Logistic Regression, SVM, etc.
+
+Custom-engineered features improved fraud detection accuracy significantly.
+
+The system is suitable for production-level deployment with minimal changes.
+
+🔮 9. Future Improvements
+
+Add SHAP explainability
+
+Deploy on AWS / GCP / Render
+
+Add REST API endpoints
+
+Add alerting system for high-risk transactions
+
+Add user authentication & admin dashboard
+
+🏆 10. Author
+
+Afeef Anver
+AI/ML Developer | Python | Data Science
