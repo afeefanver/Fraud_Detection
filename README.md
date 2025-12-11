@@ -150,31 +150,22 @@ You can add screenshots like:
 
 ## 📈 8. Results & Insights
 
-Fraud transactions often involve:
-
-Zero origin balance
-
-Significant balance errors
-
-Merchant accounts
-
-Random Forest performed best vs Logistic Regression, SVM, etc.
-
-Custom-engineered features improved fraud detection accuracy significantly.
+- Fraud transactions often involve:
+ - Zero origin balance
+ - Significant balance errors
+ - Merchant accounts
+- Random Forest performed best vs Logistic Regression, SVM, etc.
+- Custom-engineered features improved fraud detection accuracy significantly.
 
 The system is suitable for production-level deployment with minimal changes.
 
 ## 🔮 9. Future Improvements
 
-Add SHAP explainability
-
-Deploy on AWS / GCP / Render
-
-Add REST API endpoints
-
-Add alerting system for high-risk transactions
-
-Add user authentication & admin dashboard
+- Add SHAP explainability
+- Deploy on AWS / GCP / Render
+- Add REST API endpoints
+- Add alerting system for high-risk transactions
+- Add user authentication & admin dashboard
 
 ## 🏆 10. Author
 
